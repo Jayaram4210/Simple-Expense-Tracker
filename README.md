@@ -19,10 +19,15 @@ Run the project: python expense_tracker.py
 **Features:-**
 
 • Add new expenses with description, amount, and category
-• View all recorded expenses 
+
+• View all recorded expenses
+
 • Delete an expense by ID
+
 • View total expenses
+
 • Save and load expenses from a JSON file
+
 • Lightweight and beginner-friendly command-line interface
 
 
