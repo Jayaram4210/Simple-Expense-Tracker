@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "description": "Lunch",
+        "amount": 200.0,
+        "category": "Food"
+    },
+    {
+        "id": 4,
+        "description": "recharge",
+        "amount": 399.0,
+        "category": "bills"
+    }
+]
