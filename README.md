@@ -1,70 +1,31 @@
-📊 Simple Expense Tracker
-A lightweight and intuitive application to manage daily expenses. This project helps users record, categorize, and analyze their spending habits with ease.
+**Project Title: Simple Expense Tracker**
 
-🚀 Features
-Add, edit, and delete expenses
 
-Categorize expenses (e.g., Food, Travel, Utilities)
+**Description:** This is a Python-based Simple Expense Tracker application that allows users to record, view, and manage their daily expenses directly from the command line. Expenses are stored in a JSON file for persistence, making it lightweight and easy to use. The project demonstrates Python fundamentals such as file handling, JSON serialization, loops, conditional statements, and error handling for invalid inputs.
 
-View total and category‑wise spending
 
-Simple, clean interface for quick usage
+**Tech Stack:-** Python 3.x, JSON
 
-Persistent storage (local database or file system)
 
-🛠️ Tech Stack
-Backend: Python (Django/Flask)
+**Installation Instructions:-**
 
-Frontend: HTML, CSS, JavaScript (optional if web‑based)
+Clone the repository: git clone https://github.com/Jayaram4210/Simple-Expense-Tracker.git cd Simple-Expense-Tracker
 
-Database: SQLite/MySQL/PostgreSQL (depending on setup)
+Ensure Python 3.x is installed on your system.
 
-📦 Installation
-Clone the repository:
+Run the project: python expense_tracker.py
 
-bash
-git clone https://github.com/your-username/Simple-Expense-Tracker.git
-cd Simple-Expense-Tracker
-Install dependencies:
 
-bash
-pip install -r requirements.txt
-Run the application:
+**Features:-**
 
-bash
-python manage.py runserver
-or (if Flask):
+• Add new expenses with description, amount, and category • View all recorded expenses • Delete an expense by ID • View total expenses • Save and load expenses from a JSON file • Lightweight and beginner-friendly command-line interface
 
-bash
-python app.py
-📖 Usage
-Launch the app and navigate to http://localhost:8000 (Django) or http://localhost:5000 (Flask).
 
-Add expenses with category, amount, and description.
+**Troubleshooting:-**
 
-Track your spending trends over time.
+• Ensure Python is correctly installed and added to PATH • Run the script from the project directory • Enter only numeric values for expense amounts and IDs
 
-🧩 Project Structure
-Code
-Simple-Expense-Tracker/
-│── app/                # Core application logic
-│── templates/          # HTML templates
-│── static/             # CSS/JS files
-│── requirements.txt    # Dependencies
-│── README.md           # Documentation
-🐞 Troubleshooting
-Ensure Python 3.8+ is installed.
 
-If database errors occur, delete the existing DB file and run migrations again.
+**Author:-** Chintala Jayaram Bhavani Prasad
 
-Use pip install --upgrade pip if dependency installation fails.
-
-👨‍💻 Author
-Chintala Jayaram Bhavani Prasad
-
-GitHub: Jayaram4210
-
-Location: Visakhapatnam, India
-
-📜 License
-This project is licensed under the MIT License – feel free to use and modify.
+**GitHub:** https://github.com/Jayaram4210
